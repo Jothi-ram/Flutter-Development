@@ -6,20 +6,7 @@
 //take that widget and get it on the screen
 
 import 'package:flutter/material.dart';
-
+import 'src/app.dart';
 void main(){
-  var app = MaterialApp(
-    home:Scaffold(
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: (){
-          print('Jothi');
-        },
-      ),
-      appBar: AppBar(
-        title: Text('Lets see some Images!'),
-      ),
-    ),
-);
-runApp(app);
+runApp(App());
 }
