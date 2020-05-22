@@ -8,13 +8,13 @@ class App extends StatefulWidget{
 
 }
 //Create a class that will be our custom widget
-//This class must extend the 'StatelessWidget' base class
+//This class must extend the 'StatelessWidget' bases class
 class AppState extends State<App>{
   int counter = 0;
 
   Widget build(context){
     return MaterialApp(
-      home:Scaffold(
+      home:Scaffold( 
         body: Text('$counter'),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
